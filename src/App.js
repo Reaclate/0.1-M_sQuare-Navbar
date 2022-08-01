@@ -2,8 +2,8 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="bg-black text-white text-center">
-      <h1> This is the first navbar template using react.js and tailwind</h1>
+    <div className="bg-black m-3 text-white text-center text-2xl rounded-md">
+      This is a test text.
     </div>
   );
 }
