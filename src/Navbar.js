@@ -22,10 +22,6 @@ export default function Navbar() {
       </a>
     </div>
 
-    <button className="btn btn-white" onClick={() => setToggle(toggle => !toggle)}>
-    <span class="navbar-toggler-icon"></span>
-        </button>
-
         <div className="collapse" id="collapseTarget">
         
         <div className="col-md-12">
@@ -37,9 +33,9 @@ export default function Navbar() {
               </a>
             </div>
           
-            <div className="col-md-3 text-center">
+            <div className="col-md-2 text-center">
               <a href="/About" className="text-dark text-decoration-none">
-                About Us
+                About
               </a>
             </div>
            
@@ -51,13 +47,13 @@ export default function Navbar() {
            
             <div className="col-md-3 align-center text-center">
               <a href="/Contact" className="text-dark text-decoration-none">
-                Contact Us
+                Contact
               </a>
             </div>
            
             <button
               href="#account"
-              className="border-0 text-white rounded col-md-2"
+              className="border-0 text-white rounded col-md-3"
               style={{ backgroundColor: "#E62B00" }}
             >
               Account
@@ -67,6 +63,9 @@ export default function Navbar() {
         </div>
 
         </div>
+        <button className="btn btn-white" onClick={() => setToggle(toggle => !toggle)}>
+    <span class="navbar-toggler-icon"></span>
+        </button>
 
       </div>
       </nav>
