@@ -22,6 +22,10 @@ export default function Navbar() {
       </a>
     </div>
 
+    <button className="btn btn-white" onClick={() => setToggle(toggle => !toggle)}>
+    <span class="navbar-toggler-icon"></span>
+        </button>
+
         <div className="collapse" id="collapseTarget">
         
         <div className="col-md-12">
@@ -63,9 +67,6 @@ export default function Navbar() {
         </div>
 
         </div>
-        <button className="btn btn-white" onClick={() => setToggle(toggle => !toggle)}>
-    <span class="navbar-toggler-icon"></span>
-        </button>
 
       </div>
       </nav>
